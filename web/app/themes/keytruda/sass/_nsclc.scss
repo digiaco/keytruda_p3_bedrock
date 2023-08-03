@@ -1,0 +1,1126 @@
+html {
+  &[lang="fr-CA"] {
+    .page-template-page-indications {
+      .banner .text-hold h1 {
+        max-width: 56.25rem;
+      }
+    }
+  }
+}
+
+.page-template-page-indications {
+  .banner .text-hold h1 {
+    max-width: 48.125rem;
+  }
+
+
+  #main-tab {
+    .intro p {
+      font-size: 1.25rem;
+      line-height: 1.625rem;
+    }
+
+    .intro ul {
+      font-size: 1.25rem;
+      line-height: 1.625rem;
+      padding: 0 0 0 1.25rem;
+
+      li {
+        margin-bottom: 0.625rem;
+        line-height: 1.625rem;
+        position: relative;
+        padding: 0 0 0 16px;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 7px;
+          left: 0;
+          width: 6px;
+          height: 6px;
+          background: #585858;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  .intro {
+    margin-bottom: 2.8125rem;
+  }
+
+  .indicate-list {
+    padding: 0;
+    margin: 0 0 2.8125rem;
+    border: none;
+
+    p {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      color: #585858;
+      margin: 0 0 0.875rem;
+      font-weight: bold;
+    }
+
+    ul {
+      font-size: 1.25rem;
+      line-height: 1.625rem;
+
+      li {
+        margin-bottom: 0.625rem;
+        line-height: 1.625rem;
+      }
+    }
+  }
+
+  .explore {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    margin: 0 0 1rem;
+
+    h2 {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      color: #55A4B4;
+      margin: 0 0 1.25rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      line-height: 1.625rem;
+      margin: 0 0 2.1875rem;
+    }
+
+    a.btn {
+      min-width: 11.5rem;
+      margin-bottom: 2.375rem;
+    }
+
+    ul {
+      font-size: 1.25rem;
+      line-height: 1.625rem;
+      padding: 0 0 0 1.25rem;
+      margin: 0 0 2.375rem;
+
+      li {
+        position: relative;
+        padding: 0 0 0 16px;
+        margin: 0 0 0.625rem;
+        line-height: 1.625rem;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 7px;
+          left: 0;
+          width: 6px;
+          height: 6px;
+          background: #585858;
+          border-radius: 50%;
+        }
+
+      }
+    }
+  }
+
+  .frame-text {
+    border: 1px solid #585858;
+    box-sizing: border-box;
+    padding: 2.5rem;
+    border-radius: 2.25rem;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    color: #585858;
+    margin: 0 0 3.75rem;
+
+    p {
+      font-size: 1.25rem;
+      line-height: 1.625rem;
+      color: #585858;
+    }
+
+    a {
+      color: #6CC04A;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    ul {
+      font-size: 1.25rem;
+      line-height: 1.625rem;
+      padding: 0 0 0 1.25rem;
+      margin: -1.25rem 0 1.25rem;
+
+      li {
+        position: relative;
+        padding: 0 0 0 16px;
+        margin: 0 0 0.625rem;
+        line-height: 1.625rem;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 7px;
+          left: 0;
+          width: 6px;
+          height: 6px;
+          background: #585858;
+          border-radius: 50%;
+        }
+
+      }
+    }
+  }
+
+  .callout {
+    background: #0D2240;
+    padding: 3.125rem 9999px;
+    margin: 0 -9999px 0;
+    text-align: center;
+
+    h3 {
+      font-size: 1.875rem;
+      line-height: 2.5rem;
+      color: #fff;
+      margin: 0 0 1.25rem;
+      text-align: center;
+    }
+
+    .btn {
+      min-width: 44.0625rem;
+      box-sizing: border-box;
+    }
+  }
+
+  .ref-text {
+    margin-bottom: 2.2rem
+  }
+}
+
+.bottom-button-section {
+  width: 100%;
+  text-align: center;
+  background: #55A4B4;
+  padding: 3.125rem 9999px;
+  margin: 0 -9999px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn.light-blue {
+  background: #55A4B4;
+  color: #fff;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.btn.white {
+  background: #fff;
+  color: #585858;
+  font-size: 1.375rem;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background: #fff;
+  }
+}
+
+.btn {
+  img {
+    height: 1.75rem;
+    width: auto;
+    margin-right: 1.25rem;
+  }
+
+  &.w-icon {
+    justify-content: center;
+    padding-right: 3.75rem;
+    padding-left: 3.75rem;
+
+  }
+}
+
+.page-template-page-study-results {
+  .banner .text-hold h1 {
+    max-width: 48.125rem;
+  }
+}
+
+.page-template-page-patient {
+  .banner .text-hold h1 {
+    max-width: 48.125rem;
+  }
+
+  .patients-content {
+    h2 {
+      font-size: 2.25rem;
+      line-height: 2.6875rem;
+      color: #6CC04A;
+      margin: 0 0 3.25rem;
+    }
+
+    .patients-nav {
+      display: flex;
+      margin: 0 0 5rem;
+
+      a.p-link {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        color: #0D2240;
+        transition: ease 350ms all;
+        text-decoration: none;
+        width: 16.5rem;
+        background: url(../../assets/img/b-arrow.png) no-repeat 0 0.625rem;
+        background-size: 0.9375rem auto;
+        padding: 0 0 0 1.875rem;
+        margin: 0 3.75rem 0 0;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+
+          span {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .patient-meta {
+      background: #F4F4F4;
+      padding: 5rem 4.0625rem 2.5rem;
+      border: 1px solid #979797;
+      border-radius: 0 2.25rem 0 0;
+      margin-bottom: 4.1875rem;
+
+      >h2 {
+        font-size: 2.25rem;
+        line-height: 2.6875rem;
+        color: #0D2240;
+        margin: 0 0 1.375rem;
+      }
+
+      >h3 {
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+        color: #0D2240;
+        margin: 0 0 0.825rem;
+      }
+
+      p,
+      ul,
+      ol {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: #585858;
+        margin: 0;
+      }
+
+      ul {
+        padding: 0 0 0 1.25rem;
+        margin: 0 0 1.6rem;
+
+        li {
+          position: relative;
+          padding: 0 0 0 16px;
+          margin: 0 0 0.4375rem;
+          line-height: 1.625rem;
+
+          &:before {
+            content: "";
+            position: absolute;
+            top: 10px;
+            left: 0;
+            width: 6px;
+            height: 6px;
+            background: #585858;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+
+    .patient-tabs {
+      margin: 0 0 5.9375rem;
+
+      >ul {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin: 0 0 -1px;
+
+        li {
+          flex: none;
+          margin-right: 0;
+        }
+
+        a {
+          border: 1px solid #585858;
+          border-radius: 1.75rem 1.75rem 0 0;
+          font-size: 1.875rem;
+          line-height: 2.25rem;
+          color: #0D2240;
+          display: flex !important;
+          align-items: center;
+          float: left;
+          min-height: 8.75rem;
+          background: none;
+          width: 17.5rem;
+          transition: ease 350ms all;
+
+          span {
+            display: block;
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            color: #585858;
+            font-style: italic;
+            text-align: center;
+            font-weight: 400;
+            padding: 0;
+            transition: ease 350ms all;
+          }
+
+          &:hover {
+            background: #0D2240;
+            color: #fff;
+
+            span {
+              color: #fff;
+            }
+          }
+        }
+
+        li.active {
+          a {
+            background: #0D2240;
+            color: #fff;
+
+            span {
+              display: none
+            }
+          }
+        }
+      }
+
+      .bg-info {
+        background: #fff;
+        box-sizing: border-box;
+        padding: 1.125rem;
+        display: flex;
+        border-radius: 15.625rem;
+        margin: 0 0 4.625rem;
+        align-items: center;
+
+        h2 {
+          font-size: 2.25rem;
+          line-height: 2.5rem;
+          color: #0D2240;
+          margin: 0 0 1.375rem;
+        }
+
+        h3 {
+          font-size: 1.875rem;
+          line-height: 1.875rem;
+          color: #55A4B4;
+          margin: 0 0 1.5625rem;
+        }
+
+        .img-wrapper {
+          margin: 0 2rem 0 0;
+        }
+
+        .text-wrapper {
+          padding: 1.5625rem 6.25rem 0 0;
+        }
+
+        p.sub-title {
+          font-size: 1.5rem;
+          line-height: 1.625rem;
+          color: #0D2240;
+          margin: 0 0 0.9375rem;
+          font-weight: 700;
+        }
+
+        ul {
+          font-size: 1.25rem;
+          line-height: 1.625rem;
+          padding: 0 0 0 1.25rem;
+          margin: 0 0 2.1875rem;
+
+          li {
+            position: relative;
+            padding: 0 0 0 16px;
+            margin: 0 0 0.4375rem;
+            line-height: 1.625rem;
+
+            &:before {
+              content: "";
+              position: absolute;
+              top: 10px;
+              left: 0;
+              width: 6px;
+              height: 6px;
+              background: #585858;
+              border-radius: 50%;
+            }
+          }
+        }
+
+        img {
+          max-width: 20.5rem;
+          height: auto;
+        }
+      }
+
+      .promo-line {
+        width: 100%;
+        box-sizing: border-box;
+        background: #55A4B4;
+        padding: 4.1875rem 0.625rem;
+        border-radius: 0 0 2.25rem 2.25rem;
+
+        h3 {
+          font-size: 2.25rem;
+          line-height: 2.5rem;
+          color: #fff;
+
+          text-align: center;
+          padding: 0;
+
+          strong {
+            font-weight: 900;
+          }
+        }
+      }
+
+      .keynote-promo {
+        width: 100%;
+        background: #0D2240 url(../../assets/img/behind-icon.png) no-repeat 50% 50%;
+        background-size: 14.375rem auto;
+        padding: 6.25rem 0.625rem;
+        box-sizing: border-box;
+        border-radius: 0;
+
+        .wrap {
+          max-width: 34.0625rem;
+          margin: 0 auto;
+          width: 100%;
+
+          h4 {
+            font-size: 1.5rem;
+            line-height: 1.625rem;
+            color: #fff;
+            text-align: center;
+            margin: 0 0 3.125rem;
+            padding: 0 1.375rem;
+
+            sup {
+              line-height: normal;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.keynote-promo.main {
+  width: 100%;
+  box-sizing: border-box;
+
+  .wrap {
+    max-width: 34.0625rem;
+    margin: 0 auto;
+    width: 100%;
+
+    h4 {
+      font-size: 1.5rem;
+      line-height: 1.625rem;
+      color: #fff;
+      text-align: center;
+      margin: 0 0 3.125rem;
+      padding: 0 1.375rem;
+
+      sup {
+        line-height: normal;
+      }
+    }
+  }
+
+  .hold {
+    padding: 6.25rem 9999px;
+    margin: 0 -9999px 5.9375rem;
+    background: #0D2240;
+    background: #0D2240 url(../../assets/img/behind-icon.png) no-repeat 50% 50%;
+    background-size: 14.375rem auto;
+  }
+}
+
+/*
+.page-template-page-patient.postid-2875{
+  .patients-nav {
+    a.p-link:nth-child(1){
+      order:3;
+    }
+    a.p-link:nth-child(2){
+      order:2;
+    }
+    a.p-link:nth-child(3){
+      order:1;
+    }
+  }
+}
+*/
+
+.page-template-page-patient .tabs.patient-tabs ul.tabset li a {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+
+@media all and (max-width:1240px) {
+  .page-template-page-patient .patient-tabs ul.tabset li {
+    width: 25%;
+    margin-bottom: 0;
+
+    a {
+      width: 100% !important;
+    }
+  }
+}
+
+@media all and (max-width:1100px) {
+  .page-template-page-patient .patients-content .patient-tabs {
+    .bg-info .text-wrapper {
+      padding-right: 2.5rem;
+    }
+
+    .bg-info .img-wrapper {
+      max-width: 40%;
+      min-width: 40%;
+      height: auto;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media all and (max-width:1024px) {
+  .page-template-page-patient .patients-content .patient-tabs {
+    ul.tabset {
+      li {
+        a {
+          min-height: auto;
+
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media all and (max-width:900px) {
+  .page-template-page-patient .patients-content .patient-tabs .patient-meta {
+    padding: 2.5rem 2rem;
+  }
+
+  .page-template-page-indications .callout .btn {
+    min-width: 0;
+  }
+}
+
+@media all and (max-width:767px) {
+  .page-template-page-patient .patients-content {
+    >h2 {
+      font-size: 1.875rem;
+      line-height: 2.125rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .patients-nav {
+      display: block;
+      margin-bottom: 3rem;
+
+      a.p-link {
+        margin-right: 0;
+        margin-bottom: 1.375rem;
+        display: block;
+        width: auto;
+        background-position: 0 0.3125rem;
+      }
+    }
+
+    .patient-tabs {
+      .bg-info {
+        display: block;
+        border-radius: 15.3125rem;
+
+        .img-wrapper {
+          min-width: 100%;
+          max-width: 100%;
+          margin-right: 0;
+          text-align: center;
+        }
+
+        .text-wrapper {
+          padding-left: 0;
+          padding-right: 0;
+
+          h2,
+          h3 {
+            text-align: center;
+          }
+
+          h2 {
+            font-size: 1.875rem;
+          }
+
+          h3 {
+            font-size: 1.375rem;
+            line-height: 1.625rem;
+          }
+
+          p.sub-title {
+            font-size: 1.25rem;
+            padding-left: 2.5rem;
+          }
+
+          ul {
+            font-size: 1rem;
+            padding-left: 4.375rem;
+            padding-right: 1.25rem;
+          }
+        }
+      }
+
+      ul.tabset li {
+        margin-right: -0.9375rem;
+        position: relative;
+        z-index: 10;
+
+        &.active {
+          z-index: 20;
+
+          a {
+            background: #0D2240;
+          }
+        }
+      }
+
+      ul.tabset li a {
+        font-size: 1rem;
+        background: #fff;
+        line-height: normal;
+      }
+
+      .patient-meta {
+        >h2 {
+          font-size: 1.75rem;
+          line-height: normal;
+        }
+
+        >h3 {
+          font-size: 1.1875rem;
+          line-height: 1.25rem;
+        }
+
+        >ul li {
+          font-size: 1rem;
+          line-height: 1.1875rem;
+        }
+      }
+
+      .promo-line {
+        h3 {
+          font-size: 1.75rem;
+          line-height: 2rem;
+          padding: 3rem 1rem;
+        }
+      }
+
+      .keynote-promo .wrap {
+        h4 {
+          font-size: 1.25rem;
+          line-height: 1.375rem;
+          margin-bottom: 1.25rem;
+        }
+
+        a.btn {
+          font-size: 1.25rem;
+          line-height: 1.375rem;
+        }
+      }
+    }
+  }
+
+  .page-template-page-indications .frame-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .page-template-page-indications .frame-text ul {
+    font-size: 1rem;
+  }
+
+  .page-template-page-indications .callout h3 {
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+
+  .btn.light-blue {
+    font-size: 1.2rem;
+  }
+
+  .page-template-page-study-results .banner,
+  .page-template-page-indications .banner,
+  .page-template-page-patient .banner {
+    margin-bottom: 2rem;
+  }
+
+  .page-template-page-indications #main-tab .intro p,
+  .page-template-page-indications #main-tab .intro,
+  .page-template-page-indications #main-tab .intro ul,
+  .page-template-page-indications #main-tab .intro ol {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+  }
+
+}
+
+.page-template-page-patient .content-section {
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+
+  p {
+    font-size: 1.5rem;
+    margin: 0 0 1.5rem;
+    line-height: 1.625rem;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+    color: #55A4B4;
+    margin: 0 0 25px;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+    color: #6CC04A;
+    margin: 0 0 3.25rem;
+  }
+}
+
+@media all and (max-width:767px) {
+  .page-template-page-patient .content-section {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+
+    h3 {
+      font-size: 1.75rem;
+      line-height: 2.125rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h2 {
+      font-size: 1.875rem;
+      line-height: 2.125rem;
+      margin-bottom: 1.25rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+    }
+  }
+}
+
+
+
+
+
+@media all and (max-width:479px) {
+  .page-template-page-patient .patients-content .patient-tabs .patient-meta {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .page-template-page-patient .patients-content .patient-tabs .bg-info .text-wrapper p.sub-title {
+    padding-left: 0;
+  }
+
+  .page-template-page-patient .patients-content .patient-tabs .bg-info .text-wrapper ul {
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  .page-template-page-patient .patients-content .patient-tabs ul.tabset li {
+    width: 25%;
+  }
+
+  .btn.w-icon {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+  }
+
+  .btn img {
+    margin-right: 1rem
+  }
+
+  .btn.white {
+    font-size: 1.2rem;
+  }
+
+  .btn.w-icon {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .page-template-page-patient .patients-content .patient-tabs>ul a {
+    border-radius: 1.3rem 1.3rem 0 0;
+  }
+
+}
+
+.i-list {
+  .item {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .img-wrapper {
+    flex: 0 0 160px;
+    margin: 0 1.875rem 0 0;
+    position: relative;
+
+    &.with-video {
+      height: 160px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 0;
+      }
+    }
+
+    a {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70px;
+      height: 70px;
+      background: #55A4B4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+
+      svg {
+        fill: #fff;
+        width: 30px;
+        height: auto;
+        margin-left: 3px;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  h3 {
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+    margin: 0 0 1.5rem;
+    color: #55A4B4;
+    font-weight: 400;
+  }
+
+  p {
+    font: 1.5rem univers, Arial, Sans-Serif;
+    margin: 0 0 1em;
+  }
+
+}
+
+.page-template-page-resources #hnscc .m-desc h3,
+.page-template-page-resources #melanoma .m-desc h3 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: #55A4B4;
+  margin: 0 0 15px;
+}
+
+.page-template-page-resources .fancybox-button--close {
+  background: #fff
+}
+
+.page-template-page-resources .fancybox-button svg path {
+  fill: #6CC04A;
+}
+
+.page-template-page-resources #rcc .posts-list .p-posts .post-el {
+  align-items: flex-start;
+}
+
+.page-template-page-resources #rcc .posts-list .p-posts .post-el img {
+  max-width: 160px;
+}
+
+@media all and (max-width:380px) {
+  .page-template-page-patient .patients-content .patient-tabs ul.tabset li a {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (max-width:360px) {
+  .page-template-page-patient .patients-content .patient-tabs ul.tabset li a {
+    font-size: 0.65rem;
+  }
+}
+
+.page-template-page-patient .patients-content .patient-tabs>ul a sup {
+  font-size: 1.4rem;
+  margin-top: -1.125rem
+}
+
+
+@media all and (max-width:767px) {
+  .page-template-page-patient .patients-content .patient-tabs>ul a sup {
+    font-size: 1rem;
+    margin-top: -.7rem;
+  }
+
+  .i-list h3 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .i-list p {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+  }
+
+  .page-template-page-resources #hnscc .m-desc h3,
+  .page-template-page-resources #melanoma .m-desc h3 {
+    font-size: 1.375rem
+  }
+
+  .page-template-page-resources #rcc .posts-list .p-posts .post-el img {
+    max-width: 50%;
+  }
+
+  .page-template-page-resources #hnscc .m-desc p,
+  .page-template-page-hcp-tools #hnscc .m-desc p {
+    line-height: normal;
+    font-size: 1.2rem;
+  }
+
+  .i-list .item {
+    display: block;
+    margin-bottom: 42px;
+
+    .img-wrapper {
+      margin-right: 0;
+      margin-bottom: 1.5625rem;
+
+      img {
+        max-width: 50%;
+        height: auto;
+      }
+    }
+
+    a.btn {
+      display: block;
+    }
+
+    .img-wrapper.with-video {
+      max-width: 50%;
+      height: auto;
+
+      img {
+        max-width: 100% !important;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media all and (max-width:600px) {
+  .i-list .item {
+    display: block;
+    margin-bottom: 2.8125rem;
+  }
+
+  .i-list .img-wrapper {
+    margin: 0 0 1.875rem;
+  }
+
+  .i-list h3 {
+    margin-bottom: 1.2rem;
+  }
+
+  .i-list .item {
+    margin-bottom: 45px;
+  }
+
+  .i-list .img-wrapper.with-video {
+    height: 230px;
+  }
+
+  .page-template-page-resources #rcc .posts-list .p-posts .post-el img {
+    max-width: 326px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .i-list .item {
+
+    .img-wrapper,
+    .img-wrapper.with-video {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+
+      img {
+        max-width: 326px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
+  }
+}
+
+@media all and (max-width:360px) {
+  .page-template-page-patient .patients-content .patient-tabs>ul a sup {
+    font-size: 0.5rem;
+    margin-top: -.3rem;
+  }
+}
